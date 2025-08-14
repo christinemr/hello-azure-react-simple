@@ -33,7 +33,7 @@ function App() {
     if (timeLeft === 0) return "⏰";
     if (timeLeft <= 60) return "😰";
     if (timeLeft <= 180) return "🤔";
-    return "😊";
+    return "⏳⏳⏳";
   };
 
   return (
@@ -54,7 +54,7 @@ function App() {
         </div>
         <p style={{ marginTop: "20px" }}>
           {timeLeft === 0
-            ? "Time's up! 🎉"
+            ? "BEEP BOOP! Time's up! 🎉"
             : isRunning
             ? "Tick tock... ⏳"
             : "Ready to start? 🚀"}
